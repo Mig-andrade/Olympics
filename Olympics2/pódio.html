@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/podio.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pódio</title>
+</head>
+
+<body id="bodyindex">
+    <div id="videodiv">
+        <video autoplay muted loop id="videoindex">
+            <source src="img/video.mp4" type="video/webm">
+        </video>
+    </div>
+    <div class="dropdown">
+        <img class="menuicon" src="img/e.png">
+        <div class="dropdowncontent">
+            <a href="index.html"> Olímpiadas</a>
+            <a href="esportes2.html"> Esportes</a>
+            <a href="países.html"> Países</a>
+            <a href="pódio.html">Pódio</a>
+        </div>
+    </div>
+    <h1 id = "titulopodio">Medalhas das Olimpíadas 2024</h1>
+    <table class="medals-table">
+        <thead>
+            <tr>
+                <th class = "thpodio">Bandeira</th>
+                <th class = "thpodio">Posição</th>
+                <th class = "thpodio">País</th>
+                <th class = "thpodio ouro"><img class = "podiomedalha" src = "img/gold-medal.png"></th>
+                <th class = "thpodio prata"><img class = "podiomedalha" src = "img/silver-medal.png"></th>
+                <th class = "thpodio bronze"><img class = "podiomedalha" src = "img/bronze-medal.png"></th>
+                <th class = "thpodio">Total</th>
+            </tr>
+        </thead>
+        <tbody id="medals-body">
+            <!-- Os dados serão preenchidos aqui -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+    <div class="footerpodio">
+        <a id = "aname">Miguel Andrade</a> e <a id = "aname">Miguel Estevam</a> - 2024 - © Todos os direitos reservados<br>
+        Professor <a id = "aname">Lucas Serafim</a> - Trabalho Acadêmico - Sem fins lucrativos
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
