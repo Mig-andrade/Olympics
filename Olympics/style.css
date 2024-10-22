@@ -639,7 +639,7 @@ h1 {
   }
 }
 
-@media (max-width: 431px) {
+@media (max-width: 410px) {
   .indextitulo {
     top: 43.5% !important;
     font-size: 18vw;
@@ -819,3 +819,183 @@ h1 {
     transition: 0.5s;
   }
 }
+@media (max-width: 500px) {
+  .indextitulo {
+    top: 43.5% !important;
+    font-size: 18vw;
+    left: 6% !important;
+
+  }
+
+  .icone {
+    top: 40% !important;
+    width: 90% !important;
+    opacity: 1 !important;
+    right: 4% !important;
+  }
+
+  .dropdown:hover~#iconeolimpiadas .icone {
+    top: 50% !important;
+  }
+
+  .dropdown:hover~.indextitulo {
+    top: 53% !important;
+  }
+
+  .icone {
+    transition: 0.7s;
+  }
+
+  .indextitulo {
+    transition: 0.7s;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    width: 100vw;
+    margin-left: -1.5%;
+    padding: 3vw;
+    top: 88.5%;
+
+  }
+
+  .dropdown:hover+.divside .sidecontent .sidetitulo {
+    margin-top: 35vh;
+    transition: 0.5s
+  }
+
+  .dropdown:hover+.divside .sidecontent .sidetext {
+    margin-top: 35vh;
+    transition: 0.5s
+  }
+
+  .dropdown:hover+.divside #imageside2 {
+    margin-top: 38vh;
+    transition: 0.5s;
+  }
+
+  .dropdown:hover~.cards {
+    margin-top: 150vh;
+    transition: 0.5s;
+  }
+
+  #imageside1 {
+    width: 40%;
+    margin-left: 55%
+  }
+
+  #imageside2 {
+    width: 40%;
+
+  }
+
+  .sidetitulo {
+    font-size: 15vw;
+    left: 22%;
+    top: 62.5%;
+    transition: 0.5s
+  }
+
+  .sidetext {
+    font-size: 5vw;
+    width: 75%;
+    left: 14%;
+    top: 75%;
+    transition: 0.5s
+  }
+
+  .footeresportes {
+    font-size: 0.9rem;
+  }
+
+  #boxeimg {
+    width: 75%;
+    left: 2%;
+  }
+
+  .boxetext {
+    width: 80%;
+    color: white;
+    padding: 1vw;
+    margin-left: 8%;
+    margin-top: 45%;
+    position: absolute;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    transition: max-height 1s ease-out, opacity 1s ease-out;
+  }
+
+  .cards {
+    margin-top: 120vh;
+    display: block;
+    margin-bottom: 50vh
+  }
+
+  .cardtitulo {
+    font-size: 12vw;
+  }
+
+  .cardtext {
+    font-size: 6vw;
+  }
+
+  .paístitulo {
+    font-size: 16vw;
+    margin-top: -2vw;
+    left: 28%;
+    transition: 0.5s;
+  }
+
+  .países {
+    margin-top: 25vw;
+    transition: 0.5s;
+  }
+
+  .paisimage {
+    width: 80%;
+
+  }
+
+  .paiscontent {
+    font-size: 3vw;
+  }
+
+  .space {
+    margin-bottom: 40vw;
+  }
+
+  .paisimage:hover {
+    width: 95%;
+    transition: 1s;
+  }
+
+  #titulopodio {
+    font-size: 8vw;
+    margin-top: 8vw;
+    margin-bottom: 12vw;
+    transition: 0.5s;
+  }
+
+  .thpodio {
+    font-size: 3vw;
+  }
+
+  .flag {
+    width: 100% !important;
+  }
+
+  .podiomedalha {
+    width: 100%;
+  }
+  .dropdown:hover + .paístitulo{ 
+    margin-top: 70vw;
+    transition: 0.5s;
+  }
+  .dropdown:hover ~ .países{ 
+    margin-top: 95vw;
+    transition: 0.5s;
+  }
+   .dropdown:hover+#titulopodio {
+    margin-top: 75vw;
+    transition: 0.5s;
+  }
+}	
